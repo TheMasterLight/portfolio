@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1ef717ed.css",
+    "main.js": "/static/js/main.409478d3.js",
+    "static/media/KinserStudios-SaltLakeCity-Headshots-JeffS-4.jpg": "/static/media/KinserStudios-SaltLakeCity-Headshots-JeffS-4.af3a08999746192c2082.jpg",
+    "static/media/GitHub Icon.svg": "/static/media/GitHub Icon.23d6dfa78140e8017f08351385915806.svg",
+    "static/media/Twitter Icon.svg": "/static/media/Twitter Icon.3f40423293e1813898c7e26f729a0705.svg",
+    "index.html": "/index.html",
+    "static/media/Facebook Icon.svg": "/static/media/Facebook Icon.00c353d38f22d18d3ff0962f9ce66f43.svg",
+    "static/media/Mail.svg": "/static/media/Mail.341d1e767b26e2540702fb63676d4501.svg",
+    "main.1ef717ed.css.map": "/static/css/main.1ef717ed.css.map",
+    "main.409478d3.js.map": "/static/js/main.409478d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ef717ed.css",
+    "static/js/main.409478d3.js"
+  ]
+}
