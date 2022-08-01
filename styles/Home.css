@@ -55,11 +55,11 @@ nav {
   color: #26221E;
 }
 
-.fake--btn > img {
+/* .fake--btn > img {
   padding: 5px 10px;
   align-self: center;
   
-}
+} */
 
 .fake--btn:hover, .fake--btn:focus {
   background:rgba(64, 59 , 49 , 1);
@@ -117,7 +117,11 @@ nav {
     }
     
     .head--shot {
-      max-height: 251.25px; 
+      max-height: 231.25px; 
+    }
+
+    .mail--icon {
+      min-width: 33px;
     }
 
   
