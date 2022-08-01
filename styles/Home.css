@@ -55,6 +55,8 @@ nav {
 
 .fake--btn > img {
   padding: 5px 10px;
+  align-self: center;
+  
 }
 
 .fake--btn:hover, .fake--btn:focus {
@@ -66,10 +68,17 @@ nav {
   cursor: pointer;
 }
 
+.mail--icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: .5em;
+}
+
 .classy--icon {
   display: flex;
   justify-content: center;
-  
+  align-items: center;
 }
 
 .social--icon {
