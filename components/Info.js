@@ -20,7 +20,7 @@ export default function Info() {
             className="fake--btn"
           >
             <div className="mail--icon">
-              <Image src={MailIcon} alt="email icon" />
+              <Image src={MailIcon} alt="email icon" width={25} height={16}/>
             </div>
             <small> jeff.stratford.author@gmail.com</small>
           </a>

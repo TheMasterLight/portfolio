@@ -24,9 +24,11 @@ nav {
 /* Info Container Styling */
 
 .head--shot {
-  max-width: 280px;
+  max-height: 201.6px;
+  /* I can't explain why or how the max height has to be hard coded in. The image otherwise has a very tiny (as in maybe two pixles) empty space at the bottom, which shouldn't be there. I have tried several different methods of resizing the div but can't figure it out. The media query has the size set up for larger screen sizes. */
   box-shadow: 0 4px 8px 0 black;
   margin: 1em;
+  padding: 0;
   
 }
 
@@ -53,9 +55,11 @@ nav {
   color: #26221E;
 }
 
-.fake--btn > img {
+/* .fake--btn > img {
   padding: 5px 10px;
-}
+  align-self: center;
+  
+} */
 
 .fake--btn:hover, .fake--btn:focus {
   background:rgba(64, 59 , 49 , 1);
@@ -66,10 +70,17 @@ nav {
   cursor: pointer;
 }
 
+.mail--icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: .5em;
+}
+
 .classy--icon {
   display: flex;
   justify-content: center;
-  
+  align-items: center;
 }
 
 .social--icon {
@@ -104,5 +115,14 @@ nav {
     .container {
       min-width: 680px;
     }
+    
+    .head--shot {
+      max-height: 231.25px; 
+    }
+
+    .mail--icon {
+      min-width: 33px;
+    }
+
   
 }
