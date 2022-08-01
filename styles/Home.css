@@ -24,9 +24,11 @@ nav {
 /* Info Container Styling */
 
 .head--shot {
-  max-width: 280px;
+  max-height: 201.6px;
+  /* I can't explain why or how the max height has to be hard coded in. The image otherwise has a very tiny (as in maybe two pixles) empty space at the bottom, which shouldn't be there. I have tried several different methods of resizing the div but can't figure it out. The media query has the size set up for larger screen sizes. */
   box-shadow: 0 4px 8px 0 black;
   margin: 1em;
+  padding: 0;
   
 }
 
@@ -113,5 +115,10 @@ nav {
     .container {
       min-width: 680px;
     }
+    
+    .head--shot {
+      max-height: 251.25px; 
+    }
+
   
 }

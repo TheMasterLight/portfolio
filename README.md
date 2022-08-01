@@ -18,17 +18,10 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+# Personal Portfolio
 
-To learn more about Next.js, take a look at the following resources:
+This is an effort to create a digital portfolio. I hope to expand this with additional pages as I develop more code projects and find a way to translate some of what I write over to a specfic writing section. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Digital Business Card
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Currently the attempt to build out a portfolio needed a minor about me page and digital business card. Taking care of both at the same time, the about section has a little information about myself while the top portion has contact information as well as a link to contact me via email. 
